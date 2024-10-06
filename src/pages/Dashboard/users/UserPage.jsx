@@ -7,7 +7,7 @@ const UserPage = () => {
         <DefaultLayout>
             <div className='d-flex justify-content-between align-item-center mb-4'>
                 <h3>UserPage</h3>
-                <Link to="" className="btn btn-teal">Add New</Link>
+                <Link to="/admin/user/new" className="btn btn-teal">Add New</Link>
             </div>
             <div className='bg-white border rounded p-3'>
                 <Table bordered>
@@ -29,7 +29,7 @@ const UserPage = () => {
                             <td>Loading...</td>
                             <td>Loading...</td>
                             <td>
-                                <Link to="" className="btn btn-info text-white btn-sm mb-1 me-1">Edit</Link>
+                                <Link to="/admin/user/:id" className="btn btn-info text-white btn-sm mb-1 me-1">Edit</Link>
                                 <Button className='btn-warning text-white btn-sm mb-1'>
                                     Delete
                                 </Button>

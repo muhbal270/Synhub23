@@ -9,9 +9,9 @@ const DefaultLayout = ({ children }) => {
                 <Navbar.Brand className='d-flex justify-content-center mb-4' href="/admin/dashboard"><img src={logo} alt="" /></Navbar.Brand>
                 <Nav className='flex-column fs-5'>
                     <Nav.Link className='text-dark' href="/admin/dashboard">Dashboard</Nav.Link>
-                    <Nav.Link className='text-dark' href="">Bank</Nav.Link>
-                    <Nav.Link className='text-dark' href="">Banner</Nav.Link>
-                    <Nav.Link className='text-dark' href="">Facility</Nav.Link>
+                    <Nav.Link className='text-dark' href="/admin/bank">Bank</Nav.Link>
+                    <Nav.Link className='text-dark' href="/admin/banner">Banner</Nav.Link>
+                    <Nav.Link className='text-dark' href="/admin/facility">Facility</Nav.Link>
                     <Nav.Link className='text-dark' href="/admin/user">User</Nav.Link>
                 </Nav>
             </aside>
